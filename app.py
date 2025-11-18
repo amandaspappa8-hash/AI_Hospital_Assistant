@@ -9,7 +9,8 @@ import openai
 logging.basicConfig(level=logging.INFO)
 
 # Load environment variables
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("BOT_TOKEN") 
+
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 openai.api_key = OPENAI_API_KEY
